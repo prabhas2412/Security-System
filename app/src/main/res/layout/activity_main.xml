@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a4c639">
+
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:drawableTop="@drawable/mad"
+        android:text="ADMIN"
+        android:onClick="main2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:drawableTop="@drawable/mus"
+        android:text="USER"
+        android:onClick="main1"/>
+
+    <Button
+
+        android:background="@drawable/gml"
+        android:layout_marginTop="565dp"
+        android:layout_marginRight="185dp"
+        android:layout_marginLeft="145dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Gmail"
+        />
+    <Button
+
+        android:background="@drawable/fb"
+        android:layout_marginTop="565dp"
+        android:layout_marginLeft="195dp"
+        android:layout_marginRight="125dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="FB"
+        />
+    <Button
+
+        android:background="@drawable/linkedin"
+        android:layout_marginTop="565dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginRight="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="userReg1"
+        />
+    <Button
+
+        android:background="@drawable/yt"
+        android:layout_marginTop="565dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginRight="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="userReg1"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a4cc">
+
+    <Button
+        android:id="@+id/btnOff1"
+        android:textColor="#000000"
+        android:background="#ff977b"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/btn_OFF1" />
+
+    <Button
+        android:id="@+id/btnOn1"
+        android:textColor="#000000"
+        android:background="#ff977b"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnOff1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btn_ON1" />
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:alpha="0.5"
+        android:id="@+id/lock_state_img1"/>
+
+</RelativeLayout>

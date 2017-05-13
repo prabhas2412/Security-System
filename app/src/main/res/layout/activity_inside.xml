@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="100dp"
+    android:layout_height="match_parent"
+    android:background="#a4cc63">
+
+
+    <Button
+
+        android:background="@drawable/lock"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="blue"
+        />
+
+
+    <Button
+        android:text="ON/OFF Fan"
+        android:textStyle="bold"
+        android:textColor="#e5c100"
+        android:background="#cc1e47"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sensor"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:background="@drawable/resett"
+        android:layout_marginTop="40dp"
+
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_height="wrap_content"
+        android:onClick="update"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.prabhas.loginregister">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Register1"></activity>
+        <activity android:name=".Register2"></activity>
+        <activity android:name=".main1"></activity>
+        <activity android:name=".main2"></activity>
+        <activity android:name=".blue1"></activity>
+        <activity android:name=".inside"></activity>
+        <activity android:name=".dcmotor"></activity>
+        <activity android:name=".update"></activity>
+        <activity android:name=".systempass"></activity>
+        <activity android:name=".gmail"></activity>
+
+
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+ App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version" />
+
+    </application>
+
+</manifest>
